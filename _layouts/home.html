@@ -20,7 +20,7 @@ show_title: false
           {%- if _excerpt_type == 'html' -%}
             {{ post.excerpt | truncate: 10  }}
           {%- else -%}
-          {{ post.excerpt | strip_html}}
+          {{ post.excerpt | strip_html  | truncate: 10 }}
             <!-- {{ post.excerpt | strip_html | truncate: 10 }} -->
           {%- endif -%}
         </div> 
