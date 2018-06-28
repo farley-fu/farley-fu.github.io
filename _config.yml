@@ -99,11 +99,11 @@ disqus:
 ## Gitalk
 # please refer to https://github.com/gitalk/gitalk for more info.
 gitalk:
-  clientID: # GitHub Application Client ID
-  clientSecret: # GitHub Application Client Secret
-  repository: # GitHub repo
-  owner: # GitHub repo owner
-  admin: # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
+  clientID: dab378fb38e20f420ee3 # GitHub Application Client ID
+  clientSecret:  981bbf23a8ace1553b1217b1ed5367b35b76aade # GitHub Application Client Secret
+  repository: farley-fu.github.io # GitHub repo
+  owner: farley-fu # GitHub repo owner
+  admin: farley-fu # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
     # - your GitHub Id
 
 
@@ -111,9 +111,9 @@ gitalk:
 ##############################
 ## Leancloud
 leancloud:
-  app_id: # LeanCloud App id
-  app_key: # LeanCloud App key
-  app_class: # LeanCloud App class
+  app_id: PuqyinyakXYL5MQvMQiMje7q-gzGzoHsz # LeanCloud App id
+  app_key: RvuqGlCMCxqJffpX3pgKPb39 # LeanCloud App key
+  app_class: click_num # LeanCloud App class
 
 
 ## => Analytics
