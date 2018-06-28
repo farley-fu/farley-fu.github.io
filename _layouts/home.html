@@ -18,7 +18,7 @@ show_title: false
         <div class="article-content">
           {%- assign _excerpt_type = site.excerpt_type | default: site.data.variables.default.excerpt_type  -%}
           {%- if _excerpt_type == 'html' -%}
-            {{ post.excerpt | truncate: 10  }}
+            {{ post.excerpt }}
           {%- else -%}
           {{ post.excerpt | strip_html | truncate: 100 }}
             <!-- {{ post.excerpt | strip_html | truncate: 10 }} -->
