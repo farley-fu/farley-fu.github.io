@@ -19,7 +19,9 @@ show_title: false
           {%- assign _excerpt_type = site.excerpt_type | default: site.data.variables.default.excerpt_type  -%}
           {%- if _excerpt_type == 'html' -%}
             {{ post.excerpt | truncate: 100 }}
+            <p>1111111111111</p>
           {%- else -%}
+            <p>2222222222222</p>
           {{ post.excerpt | strip_html | truncate: 100 }}
             <!-- {{ post.excerpt | strip_html | truncate: 10 }} -->
           {%- endif -%}
