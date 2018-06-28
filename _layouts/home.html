@@ -15,15 +15,15 @@ show_title: false
         {%- include snippets/prepend-baseurl.html -%}
         {%- assign href = __return -%}
         <h1><a href="{{ href }}">{{ post.title }}</a></h1>
-        <!-- <div class="article-content">
+        <div class="article-content">
           {%- assign _excerpt_type = site.excerpt_type | default: site.data.variables.default.excerpt_type  -%}
           {%- if _excerpt_type == 'html' -%}
             {{ post.excerpt }}
           {%- else -%}
-            {{ post.excerpt | strip_html | truncate: 350 }}
+            {{ post.excerpt | strip_html | truncate: 50 }}
           {%- endif -%}
         </div> 
-        {%- assign __path = post.url -%}-->
+        {%- assign __path = post.url -%}
         {%- include snippets/prepend-baseurl.html -%}
         {%- assign __locale = site.data.locale.READMORE -%}
         {%- include snippets/locale-to-string.html -%}
